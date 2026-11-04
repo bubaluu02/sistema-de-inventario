@@ -1,0 +1,273 @@
+/* Excel Compact & Adaptive Theme for BarberShop POS */
+
+window {
+    background-color: #f8f9fa;
+    color: #24292f;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 11px;
+}
+
+/* Ribbon Header (Excel Green Style) */
+.excel-ribbon-bar {
+    background-color: #107c41;
+    color: white;
+    padding: 6px 12px;
+    border-bottom: 2px solid #0b5a2e;
+}
+
+.excel-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.excel-subtitle {
+    font-size: 11px;
+    color: #d1e7dd;
+}
+
+.ribbon-btn {
+    background-color: rgba(255, 255, 255, 0.18);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.ribbon-btn:hover {
+    background-color: rgba(255, 255, 255, 0.30);
+    color: white;
+}
+
+/* Excel Sheet Tabs */
+notebook {
+    background-color: #ffffff;
+}
+
+notebook > header {
+    background-color: #f3f4f6;
+    border-bottom: 1px solid #d1d5db;
+    padding-left: 8px;
+}
+
+notebook > header > tabs > tab {
+    padding: 5px 12px;
+    font-size: 11px;
+    font-weight: 600;
+    color: #4b5563;
+    background-color: #e5e7eb;
+    border: 1px solid #d1d5db;
+    border-bottom: none;
+    border-radius: 5px 5px 0 0;
+    margin-right: 3px;
+}
+
+notebook > header > tabs > tab:checked {
+    background-color: #ffffff;
+    color: #107c41;
+    border-top: 3px solid #107c41;
+    border-left: 1px solid #d1d5db;
+    border-right: 1px solid #d1d5db;
+    border-bottom: 1px solid #ffffff;
+    font-weight: 700;
+}
+
+notebook > header > tabs > tab:hover:not(:checked) {
+    background-color: #f3f4f6;
+    color: #111827;
+}
+
+/* KPI Summary Cards - Compact */
+.kpi-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 8px 12px;
+}
+
+.kpi-title {
+    font-size: 10px;
+    font-weight: 600;
+    color: #6b7280;
+}
+
+.kpi-value-green {
+    font-size: 17px;
+    font-weight: 800;
+    color: #107c41;
+}
+
+.kpi-value-blue {
+    font-size: 17px;
+    font-weight: 800;
+    color: #0d6efd;
+}
+
+.kpi-value-amber {
+    font-size: 17px;
+    font-weight: 800;
+    color: #d97706;
+}
+
+.kpi-value-red {
+    font-size: 17px;
+    font-weight: 800;
+    color: #dc2626;
+}
+
+.kpi-value-purple {
+    font-size: 15px;
+    font-weight: 800;
+    color: #7c3aed;
+}
+
+.kpi-subtext {
+    font-size: 10px;
+    color: #9ca3af;
+}
+
+/* Excel Grid / TreeView Table */
+treeview {
+    background-color: #ffffff;
+    color: #1f2937;
+    border: 1px solid #e5e7eb;
+    font-size: 11px;
+}
+
+treeview:selected {
+    background-color: #d1e7dd;
+    color: #0f5132;
+    font-weight: 600;
+}
+
+treeview:focus:selected {
+    background-color: #c3e6cb;
+    color: #0b5a2e;
+}
+
+treeview header button {
+    background-color: #f8f9fa;
+    color: #374151;
+    font-weight: 700;
+    font-size: 11px;
+    border: 1px solid #e5e7eb;
+    padding: 4px 8px;
+    border-radius: 0;
+}
+
+treeview header button:hover {
+    background-color: #e9ecef;
+    color: #111827;
+}
+
+/* Buttons */
+.btn-action-primary {
+    background-color: #107c41;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: none;
+    font-size: 11px;
+}
+
+.btn-action-primary:hover {
+    background-color: #0b5a2e;
+}
+
+.btn-action-danger {
+    background-color: #fee2e2;
+    color: #b91c1c;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: 1px solid #fca5a5;
+    font-size: 11px;
+}
+
+.btn-action-danger:hover {
+    background-color: #dc2626;
+    color: #ffffff;
+}
+
+.btn-action-secondary {
+    background-color: #f3f4f6;
+    color: #374151;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 5px 12px;
+    border: 1px solid #d1d5db;
+    font-size: 11px;
+}
+
+.btn-action-secondary:hover {
+    background-color: #e5e7eb;
+    color: #111827;
+}
+
+/* Status Bar */
+.excel-status-bar {
+    background-color: #f3f4f6;
+    border-top: 1px solid #e5e7eb;
+    padding: 4px 10px;
+    font-size: 10px;
+    color: #4b5563;
+}
+
+/* Dialog Styling */
+.dialog-title {
+    font-size: 14px;
+    font-weight: 700;
+    color: #107c41;
+}
+
+.dialog-subtitle {
+    font-size: 11px;
+    color: #6b7280;
+}
+
+.calc-preview-card {
+    background-color: #f0fdf4;
+    border: 1px solid #bbf7d0;
+    border-radius: 6px;
+}
+
+.preview-metric-profit {
+    font-size: 13px;
+    font-weight: 700;
+    color: #15803d;
+}
+
+.preview-metric-margin {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0369a1;
+}
+
+.error-text {
+    color: #dc2626;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+/* POS Panel */
+.pos-total-card {
+    background-color: #f0fdf4;
+    border: 2px solid #86efac;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.pos-total-amount {
+    font-size: 24px;
+    font-weight: 900;
+    color: #15803d;
+}
+
+.pos-profit-badge {
+    font-size: 13px;
+    font-weight: 700;
+    color: #0369a1;
+}
