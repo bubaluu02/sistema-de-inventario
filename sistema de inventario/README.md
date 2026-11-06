@@ -1,10 +1,10 @@
-# 💈 BarberShop Pro — Sistema de Gestión, Ventas e Inventario (C++ / SQLite / GTK4)
+Sistema de Gestión, Ventas e Inventario (C++ / SQLite / GTK4)
 
 Sistema de punto de venta (POS), facturación, inventario y control financiero diseñado para barberías y salones masculinos. Desarrollado en **C++17** con interfaz estilo hoja de cálculo (**GTK4 / gtkmm-4.0**) y base de datos relacional integrada (**SQLite3**).
 
 ---
 
-## 🌟 Características
+Características
 
 - 📊 **Control Financiero & Ganancias**: Visualiza ingresos, costos de ventas, ganancia neta real y margen porcentual en tiempo real.
 - 🇭🇳 **Multi-moneda (Lempiras HNL & Dólares USD)**: Tipo de cambio editable en vivo desde la barra principal.
@@ -49,7 +49,7 @@ make run
 
 ---
 
-## 🪟 Instalación y Ejecución en Windows
+Instalación y Ejecución en Windows
 
 Para compilar en Windows se utiliza el entorno nativo de desarrollo **MSYS2 (MinGW 64-bit)**.
 
