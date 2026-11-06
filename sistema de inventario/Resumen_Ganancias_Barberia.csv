@@ -1,0 +1,11 @@
+﻿REPORTE FINANCIERO Y CONTROL DE VENTAS - BARBERIA
+Métricas Globales
+Unidades Vendidas,0
+Ingresos Totales,$0.00
+Costo Total de Ventas,$0.00
+Ganancia Neta,$0.00
+Margen Promedio,0.0%
+
+DESGLOSE POR PRODUCTO (TIPO EXCEL)
+ID,Código SKU,Producto,Categoría,Unidades Vendidas,Ingresos ($),Costo ($),Ganancia Neta ($),Margen (%),Stock Actual
+21,BAR-515,maquina de cortar,Herramientas,0,0.00,0.00,0.00,0.0%,14
