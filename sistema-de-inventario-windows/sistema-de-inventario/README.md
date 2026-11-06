@@ -49,7 +49,7 @@ make run
 
 ---
 
-##Instalación y Ejecución en Windows
+Instalación y Ejecución en Windows
 
 ### Opción rápida (recomendada)
 
